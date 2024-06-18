@@ -1,0 +1,308 @@
+/* Fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilos generales del cuerpo de la página */
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0; /* Cambia el margen a 0 para todo el body */
+}
+
+/* Estilos para el contenedor header */
+header {
+    display: flex; /* Hace del header un contenedor flex */
+    align-items: center; /* Centra verticalmente los elementos en el header */
+    justify-content: space-between; /* Coloca el logo a la izquierda y los enlaces a la derecha */
+    padding: 5px 5px; /* Espacio interno */
+    color: #fff; /* Texto blanco */
+    font-weight: 500; /* Grosor del texto */
+}
+
+/* Estilos para la lista de enlaces */
+header ul {
+    display: flex; /* Hace de la lista un contenedor flex */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin-right: 80px; /* Elimina los márgenes */
+    padding: 0; /* Elimina el padding */
+}
+
+/* Estilos para los elementos de la lista */
+header ul li {
+    margin-left: 20px; /* Espaciado entre los elementos de la lista */
+    word-spacing: 80px; /* Espaciado entre palabras en los enlaces */
+}
+
+/* Estilos para los enlaces en el header */
+header a {
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado en estado normal */
+}
+
+header a:visited {
+    color: #bfbfbf; /* Gris claro para enlaces visitados en el header */
+}
+
+header a:hover {
+    color: #eee; /* Gris más claro al pasar el mouse en el header */
+}
+
+/* Estilos para los títulos */
+h1, h2 {
+    color: #ffffff; /* Texto negro */
+    font-family: "Poppins", sans-serif; /* Fuente personalizada */
+    margin: 20px auto; /* Margen superior e inferior, centrado horizontalmente */
+    text-align: center; /* Alineación centrada */
+}
+
+h1 {
+    font-size: 160px; /* Tamaño del título principal */
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px; /* Tamaño del título secundario */
+    font-weight: 500;
+}
+
+
+/* Estilos para la imagen */
+img {
+    width: 100%; /* Ancho completo */
+    margin-top: 50px; /* Margen superior */
+    margin-bottom: 50px; /* Margen inferior */
+    display: block; /* Mostrar como bloque */
+    border-radius: 60px; /* Borde redondeado */
+}
+
+/* Estilos para los subtítulos */
+h3, h4, h5, h6 {
+    color: #ffffff; /* Texto negro */
+    font-family: "Poppins", sans-serif; /* Fuente personalizada */
+    font-size: 24px; /* Tamaño del subtítulo */
+    font-weight: 500; /* Grosor de la fuente */
+    margin-left: 100px; /* Margen izquierdo */
+    margin-bottom: 10px; /* Margen inferior para separación vertical */
+}
+
+/* Ajuste específico para el título h4 */
+h4 {
+    margin-bottom: 60px; /* Aumenta el margen inferior del título h4 */
+}
+
+/* Estilo para el contenedor de la galería digital */
+.digital-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px; /* Espacio horizontal entre la columna de imágenes pequeñas y la imagen grande */
+    margin-bottom: 30px; /* Espacio inferior para separar de otras secciones */
+}
+
+/* Estilo para el contenedor de las imágenes pequeñas */
+.small-images {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para las imágenes pequeñas */
+.small-images img {
+    width: 391px; /* Ancho de las imágenes pequeñas */
+    height: auto; /* Mantiene la proporción original */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    border-radius: 0; /* Elimina el borde redondeado */
+    margin-bottom: 0; /* Asegura que no haya margen inferior adicional */
+}
+
+/* Estilo para la imagen grande */
+.large-image img {
+    width: 880px; /* Ancho de la imagen grande */
+    height: auto; /* Mantiene la proporción original */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    border-radius: 0; /* Elimina el borde redondeado */
+    margin-left: 0; /* Asegura que no haya margen izquierdo adicional */
+}
+
+.boton-enlace {
+    background-color: none;
+    color: #ffffff; /* Color del texto (blanco) */
+    text-decoration: none; /* Sin subrayado */
+    padding: 15px 30px; /* Espaciado interno (arriba y abajo, izquierda y derecha) */
+    border: 2px solid #ffffff; /* Borde blanco de 2px */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves para color de fondo y texto */
+    text-align: center; /* Alineación del texto al centro */
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: block; /* Convertir a bloque para aplicar margen automático */
+    width: fit-content; /* Ajustar el ancho del bloque al contenido */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.boton-enlace:hover {
+    background-color: #ffffff; /* Color de fondo al pasar el mouse (blanco) */
+    color: #000000; /* Color del texto al pasar el mouse (negro) */
+}
+
+/* Estilos específicos para el botón de descarga de CV */
+.boton-enlace.CV {
+    margin-top: 80px; /* Margen superior */
+    margin-bottom: 140px; /* Margen inferior */
+}
+
+
+
+/* Estilo para el contenedor principal de videos */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1380px; /* Nuevo ancho deseado del contenedor principal */
+    margin: 20px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el contenedor del video grande */
+.video-large-container {
+    width: 507px; /* Nuevo ancho ajustado del contenedor del video grande */
+    position: relative;
+    margin-right: 30px; /* Espacio derecho entre el video grande y los videos pequeños */
+}
+
+/* Estilo para el video grande dentro de su contenedor */
+.video-large {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: auto; /* Mantiene la proporción original del video */
+    object-fit: contain; /* Ajuste del video dentro del contenedor */
+}
+
+/* Estilo para el contenedor de los videos pequeños */
+.video-small-container {
+    display: flex;
+    flex-direction: column; /* Coloca los videos pequeños en columna */
+    gap: 20px; /* Espacio entre videos pequeños */
+}
+
+/* Estilo para los videos pequeños */
+.video-small {
+    width: 765px; /* Nuevo ancho ajustado del video pequeño */
+    margin-bottom: 20px; /* Espacio inferior entre videos pequeños */
+}
+
+/* Estilos para la galería de imágenes */
+.industrialGallery {
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    gap: 30px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para cada imagen dentro de la galería */
+.industrialGallery img {
+    width: 305px; /* Ancho deseado para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Mostrar como bloque para evitar espacios inesperados */
+    border-radius: 0; /* Eliminar borde redondeado */
+}
+
+/* Estilos para la galería de imágenes */
+.viGallery {
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    gap: 30px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para cada imagen dentro de la galería */
+.viGallery img {
+    width: 640px; /* Ancho deseado para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Mostrar como bloque para evitar espacios inesperados */
+    border-radius: 0; /* Eliminar borde redondeado */
+}
+
+/* Estilos para la galería de imágenes */
+.mlGallery {
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    gap: 30px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para cada imagen dentro de la galería */
+.mlGallery img {
+    width: 412px; /* Ancho deseado para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Mostrar como bloque para evitar espacios inesperados */
+    border-radius: 0; /* Eliminar borde redondeado */
+}
+
+/* Estilos para el pie de página */
+footer {
+    margin-top: 100px; /* Margen superior */
+    background-color: #000000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para la cita en el pie de página */
+footer p {
+    margin-top: 50px; /* Margen superior */
+}
+
+/* Estilos adicionales */
+.italic {
+    font-style: italic; /* Texto en cursiva */
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 100; /* Grosor de fuente light*/
+}
+
+.uppercase {
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+}
+
+/* Estilos para el contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/* Estilos para el logo */
+#logo {
+    width: 100px; /* Ancho inicial del logo */
+    transition-property: transform; /* Propiedad a animar */
+    transition-duration: 0.3s; /* Duración de la transición */
+}
+
+/* Estilos para el texto "NAHUEL VERA" */
+.logo-text {
+    opacity: 0; /* Inicialmente invisible */
+    margin-left: 10px; /* Espaciado a la izquierda del texto */
+    transition-property: opacity; /* Propiedad a animar */
+    transition-duration: 0.3s; /* Duración de la transición */
+}
+
+/* Keyframes para agrandar el logo */
+@keyframes scaleLogo {
+    from {
+        transform: scale(1); /* Escala inicial */
+    }
+    to {
+        transform: scale(1.1); /* Escala al 110% */
+    }
+}
+
+/* Efecto al hacer hover sobre el contenedor */
+.logo-container:hover #logo {
+    animation-name: scaleLogo; /* Nombre de la animación */
+    animation-duration: 0.3s; /* Duración de la animación */
+    animation-fill-mode: forwards; /* Mantener el estado final */
+}
+
+/* Mostrar el texto al hacer hover */
+.logo-container:hover .logo-text {
+    opacity: 1; /* Hacer visible el texto */
+}

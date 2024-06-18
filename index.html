@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nahuel Vera</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    <link rel="icon" href="Imagenes/Icon.svg" type="Icon">
+</head>
+<body>
+   <header>
+    <div class="logo-container">
+        <img id="logo" src="Imagenes/Logo.svg" alt="Logo">
+        <div class="logo-text">NAHUEL VERA</div>
+    </div>
+    <ul>
+        <li><a href="#digital" class="uppercase">Digital</a></li>
+        <li><a href="#audiovisual" class="uppercase">Audiovisual</a></li>
+        <li><a href="#industrial" class="uppercase">Industrial</a></li>
+        <li><a href="#graphic" class="uppercase">Graphic</a></li>
+    </ul>
+</header>
+
+    <main>
+        <h1 class="uppercase">Portfolio</h1>
+        <h2 class="uppercase">Integral designer</h2>
+        <a href="https://drive.google.com/uc?export=download&id=1lPqVwtGyF9ylfxIr4Hk3z8T9oH4SWf3d" class="boton-enlace CV">DOWNLOAD CV</a>
+
+        <h3 id="digital" class="uppercase">Digital design</h3>
+        <div class="digital-gallery">
+            <!-- Contenedor de imágenes pequeñas -->
+            <div class="small-images">
+                <a href="Imagenes/Digital 1.png" data-lightbox="digital" data-title="Digital Image 1"><img src="Imagenes/Digital 1.png" alt="Digital Image 1"></a>
+                <a href="Imagenes/Digital 2.png" data-lightbox="digital" data-title="Digital Image 2"><img src="Imagenes/Digital 2.png" alt="Digital Image 2"></a>
+                <a href="Imagenes/Digital 3.png" data-lightbox="digital" data-title="Digital Image 3"><img src="Imagenes/Digital 3.png" alt="Digital Image 3"></a>
+            </div>
+            <!-- Imagen grande -->
+            <div class="large-image">
+                <a href="Imagenes/Digital.png" data-lightbox="digital" data-title="Digital Image 4"><img src="Imagenes/Digital.png" alt="Digital Image 4"></a>
+            </div>
+        </div>
+        <a href="https://www.figma.com/proto/llThGS6h4XNbnTx4WAmNUP/BZRP-INTERACTIVO?page-id=0%3A1&node-id=1-2&viewport=443%2C142%2C0.04&t=0dU6xzWurpOexeqC-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2" target="_blank" class="boton-enlace">INTERACTIVO</a>
+
+        <h4 id="audiovisual" class="uppercase">Audiovisual design</h4>
+        <div class="video-container">
+            <div class="video-large-container">
+                <!-- Video grande -->
+                <video class="video-large" autoplay muted controls>
+                    <source src="Videos/Video 1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-small-container">
+                <!-- Videos pequeños -->
+                <video class="video-small" autoplay muted controls>
+                    <source src="Videos/Video 2.mp4" type="video/mp4">
+                </video>
+                <video class="video-small" autoplay muted controls>
+                    <source src="Videos/Video 3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <h5 id="industrial" class="uppercase">Industrial design</h5>
+        <div class="industrialGallery">
+            <a href="Imagenes/Industrial 1.png" data-lightbox="industrial"><img src="Imagenes/Industrial 1.png" alt="imagen1"></a>
+            <a href="Imagenes/Industrial 2.png" data-lightbox="industrial"><img src="Imagenes/Industrial 2.png" alt="imagen2"></a>
+            <a href="Imagenes/Industrial 3.png" data-lightbox="industrial"><img src="Imagenes/Industrial 3.png" alt="imagen1"></a>
+            <a href="Imagenes/Industrial 4.png" data-lightbox="industrial"><img src="Imagenes/Industrial 4.png" alt="imagen2"></a>
+        </div>
+
+        <h6 id="graphic" class="uppercase">Graphic design</h6>
+        <div class="viGallery">
+            <a href="Imagenes/Visual Identity 1.png" data-lightbox="grafico"><img src="Imagenes/Visual Identity 1.png" alt="imagen1"></a>
+            <a href="Imagenes/Visual Identity 2.png" data-lightbox="grafico"><img src="Imagenes/Visual Identity 2.png" alt="imagen2"></a>
+        </div>
+        <a href="https://www.behance.net/gallery/159239683/BAR-NIGHT-LED-UTDT" target="_blank" class="boton-enlace behance">BEHANCE</a>
+        <div class="mlGallery">
+            <a href="Imagenes/Morphology.png" data-lightbox="grafico"><img src="Imagenes/Morphology.png" alt="imagen3"></a>
+            <a href="Imagenes/Morphology 2.png" data-lightbox="grafico"><img src="Imagenes/Morphology 2.png" alt="imagen4"></a>
+            <a href="Imagenes/Morphology 3.png" data-lightbox="grafico"><img src="Imagenes/Morphology 3.png" alt="imagen5"></a>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+          'fadeDuration': 200,
+          'wrapAround': true
+        });
+    </script>
+</body>
+</html>
